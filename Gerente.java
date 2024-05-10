@@ -10,11 +10,11 @@ class Gerente extends Funcionario implements Trabalhavel {
 
     @Override
     public double calcularSalario() {
-        // Implemente o cálculo do salário para o gerente aqui
-        return 0.0; // apenas um exemplo, substitua com a lógica real
+       
+        return 0.0; 
     }
 
-    // Implementação dos métodos da interface Trabalhavel
+    
     @Override
     public void trabalhar() {
         System.out.println("Gerente " + getNome() + " está gerenciando a equipe " + equipe + ".");
@@ -23,6 +23,5 @@ class Gerente extends Funcionario implements Trabalhavel {
     @Override
     public void relatarProgresso() {
         System.out.println("Relatório de progresso do gerente " + getNome() + ":");
-        // Implemente o relatório de progresso específico para o gerente aqui
-    }
+       
 }

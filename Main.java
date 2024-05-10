@@ -58,16 +58,14 @@ public class Main {
         String nome = scanner.nextLine();
         System.out.println("Digite a matrícula do funcionário:");
         String matricula = scanner.nextLine();
-        // Aqui você pode adicionar a lógica para selecionar o tipo de funcionário e criar o objeto correspondente
-        // Depois, adicione o funcionário ao sistema utilizando sistema.adicionarFuncionario(funcionario);
+        
     }
 
     private static void removerFuncionario() {
         scanner.nextLine(); // Limpar o buffer
         System.out.println("Digite a matrícula do funcionário a ser removido:");
         String matriculaRemover = scanner.nextLine();
-        // Aqui você pode adicionar a lógica para encontrar o funcionário com a matrícula especificada e removê-lo do sistema
-        // Use sistema.removerFuncionario(funcionario) para remover o funcionário
+        
     }
 
     private static void listarFuncionarios() {

@@ -17,7 +17,7 @@ class SistemaGerenciamentoFuncionarios {
         }
     }
 
-    // Funcionalidade de busca de funcionários por nome ou matrícula
+    
     public void buscarFuncionario(String termo) {
         boolean encontrado = false;
         for (Funcionario funcionario : funcionarios) {
@@ -32,7 +32,7 @@ class SistemaGerenciamentoFuncionarios {
         }
     }
 
-    // Relatar progresso de todos os funcionários
+    
     public void relatarProgressoTodosFuncionarios() {
         for (Funcionario funcionario : funcionarios) {
             funcionario.relatarProgresso();
